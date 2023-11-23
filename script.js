@@ -9,7 +9,7 @@ function firstChar(text) {
 
 		for(let i=0; i<text.length; i++)
 			{
-				let charCode = character.charCodeAt(i);
+				let charCode = text.charCodeAt(i);
 				if(text.charAt(i) === charCode)
 				{
 					result+=text.charAt(i);
